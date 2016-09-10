@@ -1,6 +1,9 @@
 Development API test server
 ===========================
 
+API Node Server with Mongodb and Mongoose. Seed data to Mongodb from .json file
+-------------------------------------------------------------------------------
+
 * npm install
 
 * npm install -g node-mongo-seeds
