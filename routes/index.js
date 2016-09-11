@@ -1,12 +1,11 @@
 var express = require('express');
+var router = express.Router();
+
 
 var workRoutes = require('./work');
 var contactsRoutes = require('./contact');
 var stylesRoutes = require('./styles');
 var providersRoutes = require('./providers');
-
-
-var router = express.Router();
 
 /** GET /health-check - Check service health */
 router.get('/health-check', function(req, res) {

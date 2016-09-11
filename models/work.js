@@ -9,7 +9,10 @@ var WorkSchema = new mongoose.Schema({
   description: String,
   information: String,
   client: Array,
-  updatedAt: {type: Date, default: Date.now}
+  updatedAt: {
+    type: Date,
+    default: Date.now
+  }
 });
 
 

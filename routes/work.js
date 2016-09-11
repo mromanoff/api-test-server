@@ -6,9 +6,9 @@ var Work = require('../models/work.js');
 
 /* GET /api/work listing. */
 router.get('/', function (req, res, next) {
-  Work.find(function (err, works) {
+  Work.find(function (err, data) {
     if (err) return next(err);
-    res.json(works);
+    res.json(data);
   });
 });
 
