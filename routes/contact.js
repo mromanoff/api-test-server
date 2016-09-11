@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 var contact = require('../models/contact.js');
 
 /* GET /api/contact listing. */
-router.get('/', function(req, res, next) {
+router.get('/', function (req, res, next) {
   contact.find(function (err, contacts) {
     if (err) return next(err);
     res.json(contacts);
@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
 });
 
 /* GET /api/contact/id */
-router.get('/:id', function(req, res, next) {
+router.get('/:id', function (req, res, next) {
   contact.findById(req.params.id, function (err, post) {
     if (err) return next(err);
     res.json(post);
@@ -21,7 +21,7 @@ router.get('/:id', function(req, res, next) {
 });
 
 /* POST /api/contact */
-router.post('/', function(req, res, next) {
+router.post('/', function (req, res, next) {
   contact.create(req.body, function (err, post) {
     if (err) return next(err);
     res.json(post);
@@ -29,7 +29,7 @@ router.post('/', function(req, res, next) {
 });
 
 /* PUT /api/contact/:id */
-router.put('/:id', function(req, res, next) {
+router.put('/:id', function (req, res, next) {
   contact.findByIdAndUpdate(req.params.id, req.body, function (err, post) {
     if (err) return next(err);
     res.json(post);
@@ -37,7 +37,7 @@ router.put('/:id', function(req, res, next) {
 });
 
 /* DELETE /api/contact/:id */
-router.delete('/:id', function(req, res, next) {
+router.delete('/:id', function (req, res, next) {
   contact.findByIdAndRemove(req.params.id, req.body, function (err, post) {
     if (err) return next(err);
     res.json(post);

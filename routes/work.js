@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 var Work = require('../models/work.js');
 
 /* GET /api/work listing. */
-router.get('/', function(req, res, next) {
+router.get('/', function (req, res, next) {
   Work.find(function (err, works) {
     if (err) return next(err);
     res.json(works);
@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
 });
 
 /* GET /api/work/id */
-router.get('/:id', function(req, res, next) {
+router.get('/:id', function (req, res, next) {
   Work.findById(req.params.id, function (err, post) {
     if (err) return next(err);
     res.json(post);
@@ -21,7 +21,7 @@ router.get('/:id', function(req, res, next) {
 });
 
 /* POST /api/work */
-router.post('/', function(req, res, next) {
+router.post('/', function (req, res, next) {
   Work.create(req.body, function (err, post) {
     if (err) return next(err);
     res.json(post);
@@ -29,7 +29,7 @@ router.post('/', function(req, res, next) {
 });
 
 /* PUT /api/work/:id */
-router.put('/:id', function(req, res, next) {
+router.put('/:id', function (req, res, next) {
   Work.findByIdAndUpdate(req.params.id, req.body, function (err, post) {
     if (err) return next(err);
     res.json(post);
@@ -37,7 +37,7 @@ router.put('/:id', function(req, res, next) {
 });
 
 /* DELETE /api/work/:id */
-router.delete('/:id', function(req, res, next) {
+router.delete('/:id', function (req, res, next) {
   Work.findByIdAndRemove(req.params.id, req.body, function (err, post) {
     if (err) return next(err);
     res.json(post);

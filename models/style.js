@@ -1,9 +1,9 @@
 var mongoose = require('mongoose');
 
 var StyleSchema = new mongoose.Schema({
-    name: String,
-    description: String,
-    updatedAt: {type: Date, default: Date.now}
+  name: String,
+  description: String,
+  updatedAt: {type: Date, default: Date.now}
 });
 
 
