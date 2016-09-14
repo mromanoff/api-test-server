@@ -1,6 +1,9 @@
 var mongoose = require('mongoose');
 
 var QuestionnaireSchema = new mongoose.Schema({
+    _id: {
+      type: String
+    },
     title: {
       type: String,
       required: true

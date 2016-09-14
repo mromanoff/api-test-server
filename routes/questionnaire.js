@@ -12,4 +12,13 @@ router.get('/', function (req, res, next) {
   });
 });
 
+
+/* GET /api/questionnaire/id */
+router.get('/:id', function (req, res, next) {
+  Questionnaire.findById(req.params.id, function (err, post) {
+    if (err) return next(err);
+    res.json(post);
+  });
+});
+
 module.exports = router;

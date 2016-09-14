@@ -1,92 +1,274 @@
 [
   {
-    "title": "Level 1",
-    "description": "Which existing condition(s) would you like to address in therapy?",
+    "_id": "1",
+    "description": "Please CHECK ALL that apply*",
+    "title": "What do you want to address in therapy?",
+    "type": "question",
     "childNodes": [
       {
-        "title": "Level 2",
-        "description": null,
+        "title": "Existing Diagnosis",
+        "description": "Which existing condition(s) would you like to address in therapy?",
         "childNodes": [
           {
-            "title": "Level 3",
+            "childNodes": [],
             "description": null,
-            "childNodes": [
-              {
-                "title": "Level 4",
-                "description": null,
-                "childNodes": []
-              }
-            ]
+            "type": "multi_label",
+            "title": "Anxiety"
+          },
+          {
+            "childNodes": [],
+            "description": null,
+            "type": "multi_label",
+            "title": "Depression"
+          },
+          {
+            "childNodes": [],
+            "description": null,
+            "type": "multi_label",
+            "title": "Eating Disorder"
+          },
+          {
+            "childNodes": [],
+            "description": null,
+            "type": "multi_label",
+            "title": "Post Traumatic Stress Disorder"
+          },
+          {
+            "childNodes": [],
+            "description": null,
+            "type": "multi_label",
+            "title": "ADHD"
           }
         ]
-      }
-    ]
-  },
-  {
-    "title": "Existing Diagnosis",
-    "description": "Which existing condition(s) would you like to address in therapy?",
-    "childNodes": [
-      {
-        "title": "Anxiety",
-        "description": null,
-        "childNodes": []
       },
       {
-        "title": "Depression",
-        "description": null,
-        "childNodes": []
-      },
-      {
-        "title": "Eating Disorder",
-        "description": null,
-        "childNodes": []
-      },
-      {
-        "title": "Post Traumatic Stress Disorder",
-        "description": null,
-        "childNodes": []
-      },
-      {
-        "title": "ADHD",
-        "description": null,
-        "childNodes": []
-      }
-    ]
-  },
-  {
-    "title": "Things in My Past",
-    "description": "What from your PAST would you like to address in therapy?",
-    "childNodes": [
-      {
-        "title": "Family Issues",
-        "description": null,
-        "childNodes": []
-      },
-      {
-        "title": "Trauma",
-        "description": "Was your trauma sexual in nature?",
+        "title": "Things in My Past",
+        "description": "What from your PAST would you like to address in therapy?",
+        "type": "multi_label",
         "childNodes": [
           {
-            "title": "Yes",
+            "childNodes": [],
+            "description": null,
+            "title": "Family Issues",
+            "type": "multi_label"
+          },
+          {
+            "description": "Was your trauma sexual in nature?",
+            "title": "Trauma",
+            "type": "multi_label",
+            "childNodes": [
+              {
+                "childNodes": [],
+                "description": null,
+                "title": "Yes",
+                "type": "multi_label"
+              },
+              {
+                "childNodes": [],
+                "description": null,
+                "title": "No",
+                "type": "multi_label"
+              }
+            ]
+          },
+          {
+            "childNodes": [],
+            "description": null,
+            "type": "multi_label",
+            "title": "Grief/Loss"
+          },
+          {
+            "childNodes": [],
+            "description": null,
+            "type": "multi_label",
+            "title": "Other"
+          }
+        ]
+      },
+      {
+        "title": "Way I'm feeling",
+        "description": "any particular feeling you want to address in therapy?",
+        "type": "multi_label",
+        "childNodes": [
+          {
+            "title": "Bad about myself",
+            "description": null,
+            "type": "multi_label",
+            "childNodes": []
+          },
+          {
+            "title": "Exhausted, drained",
+            "description": null,
+            "type": "multi_label",
+            "childNodes": []
+          },
+          {
+            "title": "Stressed",
+            "description": null,
+            "type": "multi_label",
+            "childNodes": []
+          },
+          {
+            "title": "Anxious, tense",
+            "description": null,
+            "type": "multi_label",
+            "childNodes": []
+          },
+          {
+            "title": "Angry",
+            "description": null,
+            "type": "multi_label",
+            "childNodes": []
+          },
+          {
+            "title": "No feelings in particular",
+            "description": null,
+            "type": "exclusive_label",
+            "childNodes": []
+          },
+          {
+            "title": "Other",
+            "description": null,
+            "type": "multi_label",
+            "childNodes": []
+          }
+        ]
+      },
+      {
+        "title": "Relationships with others",
+        "description": "Which RELATIONSHIPS would you like to address in therapy?",
+        "type": "multi_label",
+        "childNodes": [
+          {
+            "title": "Family",
+            "description": null,
+            "childNodes": [],
+            "type": "multi_label"
+          },
+          {
+            "title": "Coworkers",
+            "description": null,
+            "childNodes": [],
+            "type": "multi_label"
+          },
+          {
+            "title": "Romantic partner[s]",
+            "description": null,
+            "childNodes": [],
+            "type": "multi_label"
+          },
+          {
+            "title": "Friends",
+            "description": null,
+            "childNodes": [],
+            "type": "multi_label"
+          },
+          {
+            "title": "Other",
+            "description": null,
+            "childNodes": [],
+            "type": "multi_label"
+          }
+        ]
+      },
+      {
+        "title": "Career Guidance",
+        "description": null,
+        "type": "multi_label",
+        "childNodes": []
+      },
+      {
+        "title": "Academic Issues",
+        "description": null,
+        "type": "multi_label",
+        "childNodes": []
+      }
+    ]
+  },
+  {
+    "_id": "2",
+    "description": null,
+    "title": "It's really important that a therapist address an issue related to my...",
+    "type": "question",
+    "childNodes": [
+      {
+        "title": "My gender",
+        "description": "How do you gender identify?",
+        "childNodes": [
+          {
+            "title": "male",
+            "type": "multi_label",
             "description": null,
             "childNodes": []
           },
           {
-            "title": "No",
+            "title": "female",
             "description": null,
+            "type": "multi_label",
+            "childNodes": []
+          },
+          {
+            "title": "other",
+            "description": null,
+            "type": "multi_label",
             "childNodes": []
           }
         ]
       },
       {
-        "title": "Grief/Loss",
-        "description": null,
-        "childNodes": []
+        "title": "My sexuality",
+        "description": "Sorry to put your sexuality in a box, but do you identify as...",
+        "type": "multi_label",
+        "childNodes": [
+          {
+            "title": "LGBTQ",
+            "description": null,
+            "childNodes": [],
+            "type": "multi_label"
+          },
+          {
+            "title": "Heterosexual",
+            "description": null,
+            "childNodes": [],
+            "type": "multi_label"
+          },
+          {
+            "title": "Not sure",
+            "description": null,
+            "childNodes": [],
+            "type": "multi_label"
+          },
+          {
+            "title": "None of these",
+            "description": null,
+            "childNodes": [],
+            "type": "multi_label"
+          }
+        ]
       },
       {
-        "title": "Other",
-        "description": null,
-        "childNodes": []
+        "title": "My culture",
+        "description": "How do you culturally identify?",
+        "type": "multi_label",
+        "childNodes": [
+          {
+            "title": null,
+            "description": null,
+            "type": "free_text"
+          }
+        ]
+      },
+      {
+        "title": "My spirituality",
+        "description": "Could you elaborate on your spirituality?",
+        "type": "multi_label",
+        "childNodes": [
+          {
+            "title": null,
+            "description": null,
+            "type": "free_text"
+          }
+        ]
       }
     ]
   }
