@@ -8,7 +8,10 @@ var ProviderSchema = new mongoose.Schema({
   type: String,
   url: String,
   styles: Array,
-  updatedAt: {type: Date, default: Date.now}
+  updatedAt: {
+    type: Date,
+    default: Date.now
+  }
 });
 
 

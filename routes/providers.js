@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 
-var mongoose = require('mongoose');
 var Providers = require('../models/provider.js');
 
 /* GET /api/provider listing. */
