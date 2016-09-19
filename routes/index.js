@@ -18,6 +18,6 @@ router.use('/work', workRoutes);
 router.use('/contact', contactsRoutes);
 router.use('/styles', stylesRoutes);
 router.use('/providers', providersRoutes);
-router.use('/questionnaire', questionnaireRoutes);
+router.use('/issues/questionnaire', questionnaireRoutes);
 
 module.exports = router;
