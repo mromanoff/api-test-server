@@ -28,3 +28,4 @@ you have mongodb and node installed on your system.git
 
 * npm start
 
+* load page on http://localhost/5000
