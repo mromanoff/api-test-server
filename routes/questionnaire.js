@@ -4,7 +4,7 @@ var router = express.Router();
 var mongoose = require('mongoose');
 var Questionnaire = require('../models/questionnaire.js');
 
-/* GET /api/questionnaire listing. */
+/* GET /api/issues/questionnaire listing. */
 router.get('/', function (req, res, next) {
   Questionnaire.find(function (err, data) {
     if (err) return next(err);
@@ -13,9 +13,25 @@ router.get('/', function (req, res, next) {
 });
 
 
-/* GET /api/questionnaire/id */
+/* GET /api/issues/questionnaire/id */
 router.get('/:id', function (req, res, next) {
   Questionnaire.findById(req.params.id, function (err, post) {
+    if (err) return next(err);
+    res.json(post);
+  });
+});
+
+
+/* PUT  /api/issues/questionnaire/id */
+router.put('/:id', function (req, res, next) {
+  Questionnaire.findByIdAndUpdate(req.params.id, req.body, function (err, post) {
+
+    console.log('req.params.id,', req.params.id);
+    console.log('req.body,', req.body);
+    console.log('error', err);
+    console.log('post', post);
+
+
     if (err) return next(err);
     res.json(post);
   });

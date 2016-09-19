@@ -3,6 +3,8 @@ Development API test server
 
 API Node Server with Mongodb and Mongoose. Seed data to Mongodb from .json file
 -------------------------------------------------------------------------------
+you have mongodb and node installed on your system.git  
+
 
 * npm install
 
@@ -21,7 +23,8 @@ API Node Server with Mongodb and Mongoose. Seed data to Mongodb from .json file
     bson = require('bson');
     and then install the bson module using npm.
 
-**Note:** Every time you run $ seed it will blow away all the data in your collections and re-populate them with whatever is in your /seeds directory.
+    **Note:** Every time you run $ seed it will blow away all the data in your collections and re-populate them with whatever is in your /seeds directory.
 
 
+* Run $ npm start
 
