@@ -1,42 +1,50 @@
 [
   {
     "_id": "1",
-    "description": "Please CHECK ALL that apply*",
     "title": "What do you want to address in therapy?",
+    "description": "Please CHECK ALL that apply*",
     "type": "question",
+    "selected": false,
     "childNodes": [
       {
         "title": "Existing Diagnosis",
         "description": "Which existing condition(s) would you like to address in therapy?",
+        "type": "FormGroup",
+        "selected": false,
         "childNodes": [
           {
             "childNodes": [],
             "description": null,
-            "type": "multi_label",
+            "type": "Checkbox",
+            "selected": false,
             "title": "Anxiety"
           },
           {
             "childNodes": [],
             "description": null,
-            "type": "multi_label",
+            "type": "Checkbox",
+            "selected": false,
             "title": "Depression"
           },
           {
             "childNodes": [],
             "description": null,
-            "type": "multi_label",
+            "type": "Checkbox",
+            "selected": false,
             "title": "Eating Disorder"
           },
           {
             "childNodes": [],
             "description": null,
-            "type": "multi_label",
+            "type": "Checkbox",
+            "selected": false,
             "title": "Post Traumatic Stress Disorder"
           },
           {
             "childNodes": [],
             "description": null,
-            "type": "multi_label",
+            "type": "Checkbox",
+            "selected": false,
             "title": "ADHD"
           }
         ]
@@ -44,92 +52,110 @@
       {
         "title": "Things in My Past",
         "description": "What from your PAST would you like to address in therapy?",
-        "type": "multi_label",
+        "type": "FormGroup",
+        "selected": false,
         "childNodes": [
           {
             "childNodes": [],
             "description": null,
             "title": "Family Issues",
-            "type": "multi_label"
+            "selected": false,
+            "type": "Checkbox"
           },
           {
-            "description": "Was your trauma sexual in nature?",
+            "description": null,
             "title": "Trauma",
-            "type": "multi_label",
+            "type": "Question",
+            "selected": false,
             "childNodes": [
               {
-                "childNodes": [],
+                "title": "Was your trauma sexual in nature?",
                 "description": null,
-                "title": "Yes",
-                "type": "multi_label"
-              },
-              {
+                "type": "Radio",
+                "selected": false,
                 "childNodes": [],
-                "description": null,
-                "title": "No",
-                "type": "multi_label"
+                "options": [
+                  {
+                    "val": "1",
+                    "label": "Yes"
+                  },
+                  {
+                    "val": "0",
+                    "label": "No"
+                  }
+                ]
               }
             ]
           },
           {
-            "childNodes": [],
+            "title": "Grief/Loss",
+            "type": "Checkbox",
+            "selected": false,
             "description": null,
-            "type": "multi_label",
-            "title": "Grief/Loss"
+            "childNodes": []
           },
           {
-            "childNodes": [],
+            "title": "Other",
             "description": null,
-            "type": "multi_label",
-            "title": "Other"
+            "childNodes": [],
+            "selected": false,
+            "type": "TextArea"
           }
         ]
       },
       {
         "title": "Way I'm feeling",
         "description": "any particular feeling you want to address in therapy?",
-        "type": "multi_label",
+        "type": "FormGroup",
+        "selected": false,
         "childNodes": [
           {
             "title": "Bad about myself",
             "description": null,
-            "type": "multi_label",
+            "type": "Checkbox",
+            "selected": false,
             "childNodes": []
           },
           {
             "title": "Exhausted, drained",
             "description": null,
-            "type": "multi_label",
+            "type": "Checkbox",
+            "selected": false,
             "childNodes": []
           },
           {
             "title": "Stressed",
             "description": null,
-            "type": "multi_label",
+            "type": "Checkbox",
+            "selected": false,
             "childNodes": []
           },
           {
             "title": "Anxious, tense",
             "description": null,
-            "type": "multi_label",
+            "type": "Checkbox",
+            "selected": false,
             "childNodes": []
           },
           {
             "title": "Angry",
             "description": null,
-            "type": "multi_label",
+            "type": "Checkbox",
+            "selected": false,
             "childNodes": []
           },
           {
             "title": "No feelings in particular",
             "description": null,
             "type": "exclusive_label",
+            "selected": false,
             "childNodes": []
           },
           {
             "title": "Other",
             "description": null,
-            "type": "multi_label",
+            "type": "Checkbox",
+            "selected": false,
             "childNodes": []
           }
         ]
@@ -137,50 +163,58 @@
       {
         "title": "Relationships with others",
         "description": "Which RELATIONSHIPS would you like to address in therapy?",
-        "type": "multi_label",
+        "type": "FormGroup",
+        "selected": false,
         "childNodes": [
           {
             "title": "Family",
             "description": null,
             "childNodes": [],
-            "type": "multi_label"
+            "selected": false,
+            "type": "Checkbox"
           },
           {
             "title": "Coworkers",
             "description": null,
             "childNodes": [],
-            "type": "multi_label"
+            "selected": false,
+            "type": "Checkbox"
           },
           {
             "title": "Romantic partner[s]",
             "description": null,
             "childNodes": [],
-            "type": "multi_label"
+            "selected": false,
+            "type": "Checkbox"
           },
           {
             "title": "Friends",
             "description": null,
             "childNodes": [],
-            "type": "multi_label"
+            "selected": false,
+            "type": "Checkbox"
           },
           {
             "title": "Other",
             "description": null,
             "childNodes": [],
-            "type": "multi_label"
+            "selected": false,
+            "type": "Checkbox"
           }
         ]
       },
       {
         "title": "Career Guidance",
         "description": null,
-        "type": "multi_label",
+        "type": "Checkbox",
+        "selected": false,
         "childNodes": []
       },
       {
         "title": "Academic Issues",
         "description": null,
-        "type": "multi_label",
+        "type": "Checkbox",
+        "selected": false,
         "childNodes": []
       }
     ]
@@ -190,6 +224,7 @@
     "description": null,
     "title": "It's really important that a therapist address an issue related to my...",
     "type": "question",
+    "selected": false,
     "childNodes": [
       {
         "title": "My gender",
@@ -197,20 +232,20 @@
         "childNodes": [
           {
             "title": "male",
-            "type": "multi_label",
+            "type": "Checkbox",
             "description": null,
             "childNodes": []
           },
           {
             "title": "female",
             "description": null,
-            "type": "multi_label",
+            "type": "Checkbox",
             "childNodes": []
           },
           {
             "title": "other",
             "description": null,
-            "type": "multi_label",
+            "type": "Checkbox",
             "childNodes": []
           }
         ]
@@ -218,55 +253,55 @@
       {
         "title": "My sexuality",
         "description": "Sorry to put your sexuality in a box, but do you identify as...",
-        "type": "multi_label",
+        "type": "Checkbox",
         "childNodes": [
           {
             "title": "LGBTQ",
             "description": null,
             "childNodes": [],
-            "type": "multi_label"
+            "type": "Checkbox"
           },
           {
             "title": "Heterosexual",
             "description": null,
             "childNodes": [],
-            "type": "multi_label"
+            "type": "Checkbox"
           },
           {
             "title": "Not sure",
             "description": null,
             "childNodes": [],
-            "type": "multi_label"
+            "type": "Checkbox"
           },
           {
             "title": "None of these",
             "description": null,
             "childNodes": [],
-            "type": "multi_label"
+            "type": "Checkbox"
           }
         ]
       },
       {
         "title": "My culture",
         "description": "How do you culturally identify?",
-        "type": "multi_label",
+        "type": "Checkbox",
         "childNodes": [
           {
             "title": null,
             "description": null,
-            "type": "free_text"
+            "type": "Text"
           }
         ]
       },
       {
         "title": "My spirituality",
         "description": "Could you elaborate on your spirituality?",
-        "type": "multi_label",
+        "type": "Checkbox",
         "childNodes": [
           {
             "title": null,
             "description": null,
-            "type": "free_text"
+            "type": "Text"
           }
         ]
       }
