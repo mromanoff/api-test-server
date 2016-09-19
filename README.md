@@ -28,4 +28,6 @@ you have mongodb and node installed on your system.git
 
 * npm start
 
-* load page on http://localhost/5000
+* load page on http://localhost:5000/api/health-check
+
+look in routes for other available APIs.
