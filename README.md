@@ -26,5 +26,5 @@ you have mongodb and node installed on your system.git
     **Note:** Every time you run $ seed it will blow away all the data in your collections and re-populate them with whatever is in your /seeds directory.
 
 
-* Run $ npm start
+* npm start
 
