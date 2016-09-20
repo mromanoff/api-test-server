@@ -9,9 +9,9 @@ var StyleSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  updatedAt: {
-    type: Date,
-    default: Date.now
+  values: {
+    type: Array,
+    required: true
   }
 });
 

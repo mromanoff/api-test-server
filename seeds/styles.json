@@ -3,18 +3,105 @@
     "_id": "57cdd4229e6cc57841472c22",
     "name": "clinical",
     "description": "I am a board-certified psychiatrist trained in both medication management and psychotherapy to treat a wide variety of psychiatric disorders",
-    "updatedAt": "2016-09-07T13:06:23.846Z"
+    "values": [
+      {
+        "label": "Entirely disagree",
+        "value": "-1.5"
+      },
+      {
+        "label": "Mostly disagree",
+        "value": "-1.0"
+      },
+      {
+        "label": "Somewhat disagree",
+        "value": "-0.5"
+      },
+      {
+        "label": " Neither agree nor disagree",
+        "value": "0.0"
+      },
+      {
+        "label": " Somewhat agree",
+        "value": "0.5"
+      },
+      {
+        "label": "Mostly agree",
+        "value": "1.0"
+      },
+      {
+        "label": "Entirely agree",
+        "value": "1.5"
+      }
+    ]
   },
   {
     "_id": "57cdd4229e6cc57841472c23",
     "name": "direct",
     "description": "The style of treatment I offer is very inter-active utilizing the realities of the \"here and now\" situations",
-    "updatedAt": "2016-09-07T13:06:23.848Z"
+    "values": [
+      {
+        "label": "Entirely disagree",
+        "value": "-1.5"
+      },
+      {
+        "label": "Mostly disagree",
+        "value": "-1.0"
+      },
+      {
+        "label": "Somewhat disagree",
+        "value": "-0.5"
+      },
+      {
+        "label": " Neither agree nor disagree",
+        "value": "0.0"
+      },
+      {
+        "label": " Somewhat agree",
+        "value": "0.5"
+      },
+      {
+        "label": "Mostly agree",
+        "value": "1.0"
+      },
+      {
+        "label": "Entirely agree",
+        "value": "1.5"
+      }
+    ]
   },
   {
     "_id": "57cdd4229e6cc57841472c24",
     "name": "nurturing",
     "description": "If you are feeling down, lonely or lost; I can help",
-    "updatedAt": "2016-09-07T13:06:23.848Z"
+    "values": [
+      {
+        "label": "Entirely disagree",
+        "value": "-1.5"
+      },
+      {
+        "label": "Mostly disagree",
+        "value": "-1.0"
+      },
+      {
+        "label": "Somewhat disagree",
+        "value": "-0.5"
+      },
+      {
+        "label": " Neither agree nor disagree",
+        "value": "0.0"
+      },
+      {
+        "label": " Somewhat agree",
+        "value": "0.5"
+      },
+      {
+        "label": "Mostly agree",
+        "value": "1.0"
+      },
+      {
+        "label": "Entirely agree",
+        "value": "1.5"
+      }
+    ]
   }
 ]
