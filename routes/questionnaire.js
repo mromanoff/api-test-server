@@ -25,13 +25,6 @@ router.get('/:id', function (req, res, next) {
 /* PUT  /api/issues/questionnaire/id */
 router.put('/:id', function (req, res, next) {
   Questionnaire.findByIdAndUpdate(req.params.id, req.body, function (err, post) {
-
-    console.log('req.params.id,', req.params.id);
-    console.log('req.body,', req.body);
-    console.log('error', err);
-    console.log('post', post);
-
-
     if (err) return next(err);
     res.json(post);
   });

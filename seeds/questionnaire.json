@@ -229,23 +229,28 @@
       {
         "title": "My gender",
         "description": "How do you gender identify?",
+        "type": "question",
+        "selected": false,
         "childNodes": [
           {
             "title": "male",
             "type": "Checkbox",
             "description": null,
+            "selected": false,
             "childNodes": []
           },
           {
             "title": "female",
             "description": null,
             "type": "Checkbox",
+            "selected": false,
             "childNodes": []
           },
           {
             "title": "other",
             "description": null,
             "type": "Checkbox",
+            "selected": false,
             "childNodes": []
           }
         ]
@@ -254,28 +259,33 @@
         "title": "My sexuality",
         "description": "Sorry to put your sexuality in a box, but do you identify as...",
         "type": "Checkbox",
+        "selected": false,
         "childNodes": [
           {
             "title": "LGBTQ",
             "description": null,
+            "selected": false,
             "childNodes": [],
             "type": "Checkbox"
           },
           {
             "title": "Heterosexual",
             "description": null,
+            "selected": false,
             "childNodes": [],
             "type": "Checkbox"
           },
           {
             "title": "Not sure",
             "description": null,
+            "selected": false,
             "childNodes": [],
             "type": "Checkbox"
           },
           {
             "title": "None of these",
             "description": null,
+            "selected": false,
             "childNodes": [],
             "type": "Checkbox"
           }
@@ -285,11 +295,14 @@
         "title": "My culture",
         "description": "How do you culturally identify?",
         "type": "Checkbox",
+        "selected": false,
         "childNodes": [
           {
             "title": null,
             "description": null,
-            "type": "Text"
+            "type": "Text",
+            "selected": false,
+            "childNodes": []
           }
         ]
       },
@@ -297,11 +310,14 @@
         "title": "My spirituality",
         "description": "Could you elaborate on your spirituality?",
         "type": "Checkbox",
+        "selected": false,
         "childNodes": [
           {
             "title": null,
             "description": null,
-            "type": "Text"
+            "type": "Text",
+            "selected": false,
+            "childNodes": []
           }
         ]
       }
