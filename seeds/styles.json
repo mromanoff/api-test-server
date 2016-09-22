@@ -1,6 +1,5 @@
 [
   {
-    "_id": "57cdd4229e6cc57841472c22",
     "name": "clinical",
     "description": "I am a board-certified psychiatrist trained in both medication management and psychotherapy to treat a wide variety of psychiatric disorders",
     "values": [
@@ -35,7 +34,6 @@
     ]
   },
   {
-    "_id": "57cdd4229e6cc57841472c23",
     "name": "direct",
     "description": "The style of treatment I offer is very inter-active utilizing the realities of the \"here and now\" situations",
     "values": [
@@ -70,7 +68,6 @@
     ]
   },
   {
-    "_id": "57cdd4229e6cc57841472c24",
     "name": "nurturing",
     "description": "If you are feeling down, lonely or lost; I can help",
     "values": [

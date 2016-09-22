@@ -1,6 +1,6 @@
 [
   {
-    "_id": "1",
+    "id": "1",
     "title": "What do you want to address in therapy?",
     "description": "Please CHECK ALL that apply*",
     "type": "question",
@@ -9,7 +9,7 @@
       {
         "title": "Existing Diagnosis",
         "description": "Which existing condition(s) would you like to address in therapy?",
-        "type": "FormGroup",
+        "type": "Question",
         "selected": false,
         "childNodes": [
           {
@@ -52,7 +52,7 @@
       {
         "title": "Things in My Past",
         "description": "What from your PAST would you like to address in therapy?",
-        "type": "FormGroup",
+        "type": "Question",
         "selected": false,
         "childNodes": [
           {
@@ -63,27 +63,24 @@
             "type": "Checkbox"
           },
           {
-            "description": null,
             "title": "Trauma",
+            "description": "Was your trauma sexual in nature?",
             "type": "Question",
             "selected": false,
             "childNodes": [
               {
-                "title": "Was your trauma sexual in nature?",
-                "description": null,
-                "type": "Radio",
-                "selected": false,
                 "childNodes": [],
-                "options": [
-                  {
-                    "value": "1",
-                    "label": "Yes"
-                  },
-                  {
-                    "val": "0",
-                    "label": "No"
-                  }
-                ]
+                "description": null,
+                "title": "Yes",
+                "selected": false,
+                "type": "RadioGroup"
+              },
+              {
+                "childNodes": [],
+                "description": null,
+                "title": "No",
+                "selected": false,
+                "type": "RadioGroup"
               }
             ]
           },
@@ -106,7 +103,7 @@
       {
         "title": "Way I'm feeling",
         "description": "any particular feeling you want to address in therapy?",
-        "type": "FormGroup",
+        "type": "Question",
         "selected": false,
         "childNodes": [
           {
@@ -163,7 +160,7 @@
       {
         "title": "Relationships with others",
         "description": "Which RELATIONSHIPS would you like to address in therapy?",
-        "type": "FormGroup",
+        "type": "Question",
         "selected": false,
         "childNodes": [
           {
@@ -220,16 +217,16 @@
     ]
   },
   {
-    "_id": "2",
+    "id": "2",
     "description": null,
     "title": "It's really important that a therapist address an issue related to my...",
-    "type": "question",
+    "type": "Question",
     "selected": false,
     "childNodes": [
       {
         "title": "My gender",
         "description": "How do you gender identify?",
-        "type": "question",
+        "type": "Question",
         "selected": false,
         "childNodes": [
           {
@@ -258,7 +255,7 @@
       {
         "title": "My sexuality",
         "description": "Sorry to put your sexuality in a box, but do you identify as...",
-        "type": "Checkbox",
+        "type": "Question",
         "selected": false,
         "childNodes": [
           {
@@ -294,7 +291,7 @@
       {
         "title": "My culture",
         "description": "How do you culturally identify?",
-        "type": "Checkbox",
+        "type": "Question",
         "selected": false,
         "childNodes": [
           {
@@ -309,7 +306,7 @@
       {
         "title": "My spirituality",
         "description": "Could you elaborate on your spirituality?",
-        "type": "Checkbox",
+        "type": "Question",
         "selected": false,
         "childNodes": [
           {

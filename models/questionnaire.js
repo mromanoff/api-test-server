@@ -1,12 +1,11 @@
 var mongoose = require('mongoose');
 
 var QuestionnaireSchema = new mongoose.Schema({
-    _id: {
+    id: {
       type: String
     },
     title: {
-      type: String,
-      required: true
+      type: String
     },
     description: {
       type: String
@@ -14,13 +13,14 @@ var QuestionnaireSchema = new mongoose.Schema({
     childNodes: {
       type: Array
     },
-    updatedAt: {
-      type: Date,
-      default: Date.now
+    type: {
+      type: String
+    },
+    selected: {
+      type: Boolean
     }
   },
   {collection: 'questionnaire'}
 );
-
 
 module.exports = mongoose.model('Questionnaire', QuestionnaireSchema);

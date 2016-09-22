@@ -14,8 +14,9 @@ router.get('/', function (req, res, next) {
 
 
 /* GET /api/issues/questionnaire/id */
+// we use findOne isntead of findById due id is not mongo _id
 router.get('/:id', function (req, res, next) {
-  Questionnaire.findById(req.params.id, function (err, post) {
+  Questionnaire.findOne({id: req.params.id}, function (err, post) {
     if (err) return next(err);
     res.json(post);
   });
@@ -23,8 +24,9 @@ router.get('/:id', function (req, res, next) {
 
 
 /* PUT  /api/issues/questionnaire/id */
+// we use findOneAndUpdate isntead of findByIdAndUpdate due id is not mongo _id
 router.put('/:id', function (req, res, next) {
-  Questionnaire.findByIdAndUpdate(req.params.id, req.body, function (err, post) {
+  Questionnaire.findOneAndUpdate({id: req.params.id}, req.body, function (err, post) {
     if (err) return next(err);
     res.json(post);
   });

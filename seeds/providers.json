@@ -1,6 +1,6 @@
 [
   {
-    "_id": "362",
+    "id": "362",
     "age": 36,
     "gender": "male",
     "name": "Andrea Iatrou",
@@ -11,24 +11,54 @@
         "styles": [
           "nurturing",
           "direct"
-        ],
-        "index": 0
+        ]
       },
       {
         "sentence": "I'll give you lots of pills, patient.",
         "styles": [
           "clinical"
-        ],
-        "index": 1
+        ]
       }
     ],
     "providerStatement": [
-      "I tell it how it is, and I'm really nice.",
-      "I'll give you lots of pills, patient."
+      {
+        "highlight": true,
+        "sentence": "I tell it how it is, and I'm really nice."
+      },
+
+      {
+        "highlight": false,
+        "sentence": "Bacon ipsum dolor amet prosciutto salami corned beef kevin, tail pig andouille picanha cupim."
+      },
+
+      {
+        "highlight": true,
+        "sentence": "Pig filet mignon flank porchetta ham cow pork loin."
+      },
+
+      {
+        "highlight": false,
+        "sentence": "Meatloaf picanha bresaola prosciutto ground round, shank pork cow brisket."
+      },
+
+      {
+        "highlight": false,
+        "sentence": "Cupim ham landjaeger shankle filet mignon."
+      },
+
+      {
+        "highlight": false,
+        "sentence": "Short loin bacon spare ribs beef ribs pork loin, chuck pork chop tail pork belly."
+      },
+
+      {
+        "highlight": true,
+        "sentence": "I'll give you lots of pills, patient."
+      }
     ]
   },
   {
-    "_id": "979",
+    "id": "979",
     "age": 49,
     "gender": "female",
     "name": "Laurie Greenberg",
@@ -39,24 +69,29 @@
         "styles": [
           "nurturing",
           "direct"
-        ],
-        "index": 0
+        ]
       },
       {
         "sentence": "I'll give you lots of pills, patient.",
         "styles": [
           "clinical"
-        ],
-        "index": 1
+        ]
       }
     ],
     "providerStatement": [
-      "I tell it how it is, and I'm really nice.",
-      "I'll give you lots of pills, patient."
+      {
+        "highlight": true,
+        "sentence": "I tell it how it is, and I'm really nice."
+      },
+
+      {
+        "highlight": true,
+        "sentence": "I'll give you lots of pills, patient."
+      }
     ]
   },
   {
-    "_id": "1053",
+    "id": "1053",
     "age": 59,
     "gender": "female",
     "name": "Renee Saw",
@@ -67,24 +102,29 @@
         "styles": [
           "nurturing",
           "direct"
-        ],
-        "index": 0
+        ]
       },
       {
         "sentence": "I'll give you lots of pills, patient.",
         "styles": [
           "clinical"
-        ],
-        "index": 1
+        ]
       }
     ],
     "providerStatement": [
-      "I tell it how it is, and I'm really nice.",
-      "I'll give you lots of pills, patient."
+      {
+        "highlight": true,
+        "sentence": "I tell it how it is, and I'm really nice."
+      },
+
+      {
+        "highlight": true,
+        "sentence": "I'll give you lots of pills, patient."
+      }
     ]
   },
   {
-    "_id": "1270",
+    "id": "1270",
     "age": 40,
     "gender": "male",
     "name": "Volker Schuetz",
@@ -95,24 +135,29 @@
         "styles": [
           "nurturing",
           "direct"
-        ],
-        "index": 0
+        ]
       },
       {
         "sentence": "I'll give you lots of pills, patient.",
         "styles": [
           "clinical"
-        ],
-        "index": 1
+        ]
       }
     ],
     "providerStatement": [
-      "I tell it how it is, and I'm really nice.",
-      "I'll give you lots of pills, patient."
+      {
+        "highlight": true,
+        "sentence": "I tell it how it is, and I'm really nice."
+      },
+
+      {
+        "highlight": true,
+        "sentence": "I'll give you lots of pills, patient."
+      }
     ]
   },
   {
-    "_id": "1629",
+    "id": "1629",
     "age": 38,
     "gender": null,
     "name": "Ally Neuman",
@@ -123,20 +168,25 @@
         "styles": [
           "nurturing",
           "direct"
-        ],
-        "index": 0
+        ]
       },
       {
         "sentence": "I'll give you lots of pills, patient.",
         "styles": [
           "clinical"
-        ],
-        "index": 1
+        ]
       }
     ],
     "providerStatement": [
-      "I tell it how it is, and I'm really nice.",
-      "I'll give you lots of pills, patient."
+      {
+        "highlight": true,
+        "sentence": "I tell it how it is, and I'm really nice."
+      },
+
+      {
+        "highlight": true,
+        "sentence": "I'll give you lots of pills, patient."
+      }
     ]
   }
 ]

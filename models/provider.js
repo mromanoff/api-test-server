@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 
 var ProviderSchema = new mongoose.Schema({
-  _id: {
+  id: {
     type: String
   },
   name: {
