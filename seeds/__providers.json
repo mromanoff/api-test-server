@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "57d015d8bea4c39fbb693826",
+    "firstName": "Stephen",
+    "middleName": "J.",
+    "lastName": "Levin",
+    "age": 50,
+    "type": "Therapist",
+    "imageUrl": "https://cdn3.sussexdirectories.com/rms/rms_photos/original/97/36/33697_3.jpg?pu=0",
+    "description": "A good therapist can help you change. I have been in practice for over 40 years. If you want a therapist who is quiet or leans back in his chair saying, \"tell me more about this...\" or \"uh huh\", this is not me. Likewise, if you want a highly intellectual Jungian-type of analysis with multiple sessions analyzing ones dreams, I am not the right therapist for you. I am an active, involved therapist who gives advice and feedback. I will answer most questions. Therapy is a collaborative process. I make use of cognitive behavior therapy and other therapies. I am the youngest certified graduate in psychoanalysis in the history of post-graduate center for mental health. I know that endless talking about the past does not promote growth or change. Many people I see have had previous long term therapy, have excellent insight into their issues, yet are still depressed and stuck. People like this need a powerful psychological jump start to move them forward. Our work together will promote this movement. Therapy is not s forever process. You should feel and see change happening. I know I can help you and you will want to work with me.",
+    "updatedAt": "2016-09-10T04:42:38.957Z",
+    "summarySentences": [
+      {
+        "sentence": "I am the youngest certified graduate in psychoanalysis in the history of post-graduate center for mental health.",
+        "name": "clinical"
+      },
+      {
+        "sentence": "If you want a therapist who is quiet or leans back in his chair saying, \"tell me more about this...\" or \"uh huh\", this is not me.",
+        "name": "direct"
+      },
+      {
+        "sentence": "People like this need a powerful psychological jump start to move them forward.",
+        "name": "nurturing"
+      }
+    ]
+  },
+  {
+    "_id": "57d01bf7bea4c39fbb693827",
+    "firstName": "Philip",
+    "middleName": null,
+    "lastName": "Claus",
+    "age": 64,
+    "type": "Therapist",
+    "imageUrl": "https://cdn3.sussexdirectories.com/rms/rms_photos/sized/82/00/120082-308524-3_320x400.jpg?pu=1408466701",
+    "description": "A good therapist can help you change. I have been in practice for over 40 years. If you want a therapist who is quiet or leans back in his chair saying, \"tell me more about this...\" or \"uh huh\", this is not me. Likewise, if you want a highly intellectual Jungian-type of analysis with multiple sessions analyzing ones dreams, I am not the right therapist for you. I am an active, involved therapist who gives advice and feedback. I will answer most questions. Therapy is a collaborative process. I make use of cognitive behavior therapy and other therapies. I am the youngest certified graduate in psychoanalysis in the history of post-graduate center for mental health. I know that endless talking about the past does not promote growth or change. Many people I see have had previous long term therapy, have excellent insight into their issues, yet are still depressed and stuck. People like this need a powerful psychological jump start to move them forward. Our work together will promote this movement. Therapy is not s forever process. You should feel and see change happening. I know I can help you and you will want to work with me.",
+    "updatedAt": "2016-09-10T04:42:38.960Z",
+    "styles": [
+      {
+        "description": "I am the youngest certified graduate in psychoanalysis in the history of post-graduate center for mental health.",
+        "name": "clinical"
+      },
+      {
+        "description": "If you want a therapist who is quiet or leans back in his chair saying, \"tell me more about this...\" or \"uh huh\", this is not me.",
+        "name": "direct"
+      },
+      {
+        "description": "People like this need a powerful psychological jump start to move them forward.",
+        "name": "nurturing"
+      }
+    ]
+  }
+]

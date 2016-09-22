@@ -1,16 +1,26 @@
 var mongoose = require('mongoose');
 
 var ProviderSchema = new mongoose.Schema({
-  firstName: String,
-  middleName: String,
-  lastName: String,
-  age: Number,
-  type: String,
-  url: String,
-  styles: Array,
-  updatedAt: {
-    type: Date,
-    default: Date.now
+  _id: {
+    type: String
+  },
+  name: {
+    type: String
+  },
+  age: {
+    type: Number
+  },
+  gender: {
+    type: String
+  },
+  photoUrl: {
+    type: String
+  },
+  summarySentences: {
+    type: Array
+  },
+  providerStatement: {
+    type: Array
   }
 });
 
