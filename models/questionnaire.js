@@ -16,6 +16,9 @@ var QuestionnaireSchema = new mongoose.Schema({
     type: {
       type: String
     },
+    name: {
+      type: String
+    },
     selected: {
       type: Boolean
     }

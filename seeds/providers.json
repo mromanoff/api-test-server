@@ -5,49 +5,49 @@
     "gender": "male",
     "name": "Andrea Iatrou",
     "photoUrl": "https://cdn5.sussexdirectories.com/rms/rms_photos/original/04/46/114604_3.jpg?pu=0",
-    "summarySentences": [
+    "highlights": [
       {
         "sentence": "I tell it how it is, and I'm really nice.",
-        "styles": [
+        "descriptors": [
           "clinical",
           "nurturing",
           "direct"
         ]
       }
     ],
-    "providerStatement": [
+    "statementSentences": [
       {
-        "highlight": true,
+        "highlighted": true,
         "sentence": "I tell it how it is, and I'm really nice."
       },
 
       {
-        "highlight": false,
+        "highlighted": false,
         "sentence": "Bacon ipsum dolor amet prosciutto salami corned beef kevin, tail pig andouille picanha cupim."
       },
 
       {
-        "highlight": true,
+        "highlighted": true,
         "sentence": "Pig filet mignon flank porchetta ham cow pork loin."
       },
 
       {
-        "highlight": false,
+        "highlighted": false,
         "sentence": "Meatloaf picanha bresaola prosciutto ground round, shank pork cow brisket."
       },
 
       {
-        "highlight": false,
+        "highlighted": false,
         "sentence": "Cupim ham landjaeger shankle filet mignon."
       },
 
       {
-        "highlight": false,
+        "highlighted": false,
         "sentence": "Short loin bacon spare ribs beef ribs pork loin, chuck pork chop tail pork belly."
       },
 
       {
-        "highlight": true,
+        "highlighted": true,
         "sentence": "I'll give you lots of pills, patient."
       }
     ]
@@ -58,29 +58,29 @@
     "gender": "female",
     "name": "Laurie Greenberg",
     "photoUrl": "https://cdn1.sussexdirectories.com/rms/rms_photos/sized/42/54/35442-296030-2_320x400.jpg?pu=1404432841",
-    "summarySentences": [
+    "highlights": [
       {
         "sentence": "I tell it how it is, and I'm really nice.",
-        "styles": [
+        "descriptors": [
           "nurturing",
           "direct"
         ]
       },
       {
         "sentence": "I'll give you lots of pills, patient.",
-        "styles": [
+        "descriptors": [
           "clinical"
         ]
       }
     ],
-    "providerStatement": [
+    "statementSentences": [
       {
-        "highlight": true,
+        "highlighted": true,
         "sentence": "I tell it how it is, and I'm really nice."
       },
 
       {
-        "highlight": true,
+        "highlighted": true,
         "sentence": "I'll give you lots of pills, patient."
       }
     ]
@@ -91,29 +91,29 @@
     "gender": "female",
     "name": "Renee Saw",
     "photoUrl": "https://cdn1.sussexdirectories.com/rms/rms_photos/original/64/11/101164_5.jpg?pu=0",
-    "summarySentences": [
+    "highlights": [
       {
         "sentence": "I tell it how it is, and I'm really nice.",
-        "styles": [
+        "descriptors": [
           "nurturing",
           "direct"
         ]
       },
       {
         "sentence": "I'll give you lots of pills, patient.",
-        "styles": [
+        "descriptors": [
           "clinical"
         ]
       }
     ],
-    "providerStatement": [
+    "statementSentences": [
       {
-        "highlight": true,
+        "highlighted": true,
         "sentence": "I tell it how it is, and I'm really nice."
       },
 
       {
-        "highlight": true,
+        "highlighted": true,
         "sentence": "I'll give you lots of pills, patient."
       }
     ]
@@ -124,29 +124,29 @@
     "gender": "male",
     "name": "Volker Schuetz",
     "photoUrl": "https://cdn1.sussexdirectories.com/rms/rms_photos/original/53/81/118153_2.jpg?pu=0",
-    "summarySentences": [
+    "highlights": [
       {
         "sentence": "I tell it how it is, and I'm really nice.",
-        "styles": [
+        "descriptors": [
           "nurturing",
           "direct"
         ]
       },
       {
         "sentence": "I'll give you lots of pills, patient.",
-        "styles": [
+        "descriptors": [
           "clinical"
         ]
       }
     ],
-    "providerStatement": [
+    "statementSentences": [
       {
-        "highlight": true,
+        "highlighted": true,
         "sentence": "I tell it how it is, and I'm really nice."
       },
 
       {
-        "highlight": true,
+        "highlighted": true,
         "sentence": "I'll give you lots of pills, patient."
       }
     ]
@@ -157,29 +157,29 @@
     "gender": null,
     "name": "Ally Neuman",
     "photoUrl": "https://cdn5.sussexdirectories.com/rms/rms_photos/sized/91/71/37191-357014-2_320x400.jpg?pu=1423025419",
-    "summarySentences": [
+    "highlights": [
       {
         "sentence": "I tell it how it is, and I'm really nice.",
-        "styles": [
+        "descriptors": [
           "nurturing",
           "direct"
         ]
       },
       {
         "sentence": "I'll give you lots of pills, patient.",
-        "styles": [
+        "descriptors": [
           "clinical"
         ]
       }
     ],
-    "providerStatement": [
+    "statementSentences": [
       {
-        "highlight": true,
+        "highlighted": true,
         "sentence": "I tell it how it is, and I'm really nice."
       },
 
       {
-        "highlight": true,
+        "highlighted": true,
         "sentence": "I'll give you lots of pills, patient."
       }
     ]

@@ -3,7 +3,7 @@
     "id": "1",
     "title": "What do you want to address in therapy?",
     "description": "Please CHECK ALL that apply*",
-    "type": "question",
+    "type": "Question",
     "selected": false,
     "childNodes": [
       {
@@ -98,7 +98,8 @@
             "description": null,
             "childNodes": [],
             "selected": false,
-            "type": "TextArea"
+            "type": "TextArea",
+            "value": null
           }
         ]
       },

@@ -16,10 +16,10 @@ var ProviderSchema = new mongoose.Schema({
   photoUrl: {
     type: String
   },
-  summarySentences: {
+  highlights: {
     type: Array
   },
-  providerStatement: {
+  statementSentences: {
     type: Array
   }
 });

@@ -1,8 +1,8 @@
 [
   {
-    "name": "clinical",
-    "description": "I am a board-certified psychiatrist trained in both medication management and psychotherapy to treat a wide variety of psychiatric disorders",
-    "values": [
+    "styleDescriptor": "clinical",
+    "example": "I am a board-certified psychiatrist trained in both medication management and psychotherapy to treat a wide variety of psychiatric disorders",
+    "weights": [
       {
         "label": "Entirely disagree",
         "value": "-1.5"
@@ -34,9 +34,9 @@
     ]
   },
   {
-    "name": "direct",
-    "description": "The style of treatment I offer is very inter-active utilizing the realities of the \"here and now\" situations",
-    "values": [
+    "styleDescriptor": "direct",
+    "example": "The style of treatment I offer is very inter-active utilizing the realities of the \"here and now\" situations",
+    "weights": [
       {
         "label": "Entirely disagree",
         "value": "-1.5"
@@ -68,9 +68,9 @@
     ]
   },
   {
-    "name": "nurturing",
-    "description": "If you are feeling down, lonely or lost; I can help",
-    "values": [
+    "styleDescriptor": "nurturing",
+    "example": "If you are feeling down, lonely or lost; I can help",
+    "weights": [
       {
         "label": "Entirely disagree",
         "value": "-1.5"

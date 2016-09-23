@@ -1,15 +1,15 @@
 var mongoose = require('mongoose');
 
 var StyleSchema = new mongoose.Schema({
-  name: {
+  styleDescriptor: {
     type: String,
     required: true
   },
-  description: {
+  example: {
     type: String,
     required: true
   },
-  values: {
+  weights: {
     type: Array,
     required: true
   }
