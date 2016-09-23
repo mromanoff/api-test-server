@@ -12,8 +12,9 @@ router.get('/', function (req, res, next) {
 });
 
 /* GET /api/provider/id */
+// we use findOne isntead of findById due id is not mongo _id
 router.get('/:id', function (req, res, next) {
-  Providers.findById(req.params.id, function (err, post) {
+  Providers.findOne({id: req.params.id}, function (err, post) {
     if (err) return next(err);
     res.json(post);
   });

@@ -9,14 +9,9 @@
       {
         "sentence": "I tell it how it is, and I'm really nice.",
         "styles": [
+          "clinical",
           "nurturing",
           "direct"
-        ]
-      },
-      {
-        "sentence": "I'll give you lots of pills, patient.",
-        "styles": [
-          "clinical"
         ]
       }
     ],

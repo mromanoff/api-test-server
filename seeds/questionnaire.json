@@ -65,22 +65,24 @@
           {
             "title": "Trauma",
             "description": "Was your trauma sexual in nature?",
-            "type": "Question",
+            "type": "RadioGroup",
             "selected": false,
             "childNodes": [
               {
                 "childNodes": [],
                 "description": null,
                 "title": "Yes",
+                "name": "trauma",
                 "selected": false,
-                "type": "RadioGroup"
+                "type": "Radio"
               },
               {
                 "childNodes": [],
                 "description": null,
                 "title": "No",
+                "name": "trauma",
                 "selected": false,
-                "type": "RadioGroup"
+                "type": "Radio"
               }
             ]
           },
@@ -151,7 +153,7 @@
           {
             "title": "Other",
             "description": null,
-            "type": "Checkbox",
+            "type": "TextArea",
             "selected": false,
             "childNodes": []
           }
@@ -196,7 +198,7 @@
             "description": null,
             "childNodes": [],
             "selected": false,
-            "type": "Checkbox"
+            "type": "TextArea"
           }
         ]
       },
@@ -226,12 +228,13 @@
       {
         "title": "My gender",
         "description": "How do you gender identify?",
-        "type": "Question",
+        "type": "RadioGroup",
         "selected": false,
         "childNodes": [
           {
             "title": "male",
-            "type": "Checkbox",
+            "type": "Radio",
+            "name": "gender",
             "description": null,
             "selected": false,
             "childNodes": []
@@ -239,14 +242,16 @@
           {
             "title": "female",
             "description": null,
-            "type": "Checkbox",
+            "type": "Radio",
+            "name": "gender",
             "selected": false,
             "childNodes": []
           },
           {
-            "title": "other",
+            "title": "Other",
             "description": null,
-            "type": "Checkbox",
+            "type": "Radio",
+            "name": "gender",
             "selected": false,
             "childNodes": []
           }
@@ -255,68 +260,54 @@
       {
         "title": "My sexuality",
         "description": "Sorry to put your sexuality in a box, but do you identify as...",
-        "type": "Question",
+        "type": "RadioGroup",
         "selected": false,
         "childNodes": [
           {
             "title": "LGBTQ",
+            "name": "sexuality",
             "description": null,
             "selected": false,
             "childNodes": [],
-            "type": "Checkbox"
+            "type": "Radio"
           },
           {
             "title": "Heterosexual",
+            "name": "sexuality",
             "description": null,
             "selected": false,
             "childNodes": [],
-            "type": "Checkbox"
+            "type": "Radio"
           },
           {
             "title": "Not sure",
+            "name": "sexuality",
             "description": null,
             "selected": false,
             "childNodes": [],
-            "type": "Checkbox"
+            "type": "Radio"
           },
           {
             "title": "None of these",
+            "name": "sexuality",
             "description": null,
             "selected": false,
             "childNodes": [],
-            "type": "Checkbox"
+            "type": "Radio"
           }
         ]
       },
       {
         "title": "My culture",
         "description": "How do you culturally identify?",
-        "type": "Question",
-        "selected": false,
-        "childNodes": [
-          {
-            "title": null,
-            "description": null,
-            "type": "Text",
-            "selected": false,
-            "childNodes": []
-          }
-        ]
+        "type": "TextArea",
+        "selected": false
       },
       {
         "title": "My spirituality",
         "description": "Could you elaborate on your spirituality?",
-        "type": "Question",
-        "selected": false,
-        "childNodes": [
-          {
-            "title": null,
-            "description": null,
-            "type": "Text",
-            "selected": false,
-            "childNodes": []
-          }
-        ]
+        "type": "TextArea",
+        "selected": false
       }
     ]
   }
