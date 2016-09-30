@@ -1,27 +1,19 @@
 var mongoose = require('mongoose');
 
-var ContactSchema = new mongoose.Schema({
-  firstName: {
+var LocationSchema = new mongoose.Schema({
+  lat: {
     type: String,
     required: true
   },
-  lastName: {
+  lng: {
     type: String,
     required: true
   },
-  email: {
+  radius: {
     type: String,
     required: true
-  },
-  comment: {
-    type: String,
-    required: true
-  },
-  updatedAt: {
-    type: Date,
-    default: Date.now
   }
 });
 
 
-module.exports = mongoose.model('Contact', ContactSchema);
+module.exports = mongoose.model('Location', LocationSchema);

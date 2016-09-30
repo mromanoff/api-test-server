@@ -311,5 +311,94 @@
         "selected": false
       }
     ]
+  },
+  {
+    "id": "3",
+    "description": "use these filters to get better match",
+    "title": "Get Provider by these filters",
+    "type": "Question",
+    "selected": false,
+    "childNodes": [
+      {
+        "title": "Gender",
+        "description": "Provider Gender",
+        "type": "Question",
+        "selected": false,
+        "childNodes": [
+          {
+            "title": "Male",
+            "name": "gender",
+            "description": null,
+            "selected": false,
+            "childNodes": [],
+            "type": "Checkbox"
+          },
+          {
+            "title": "Female",
+            "name": "gender",
+            "description": null,
+            "selected": false,
+            "childNodes": [],
+            "type": "Checkbox"
+          }
+        ]
+      },
+      {
+        "title": "Title",
+        "description": "Provider Title",
+        "type": "Question",
+        "selected": false,
+        "childNodes": [
+          {
+            "title": "Therapist",
+            "name": "title",
+            "description": null,
+            "selected": false,
+            "childNodes": [],
+            "type": "Checkbox"
+          },
+          {
+            "title": "Dentist",
+            "name": "title",
+            "description": null,
+            "selected": false,
+            "childNodes": [],
+            "type": "Checkbox"
+          }
+        ]
+      },
+      {
+        "title": "Age",
+        "description": "Provider Age",
+        "type": "Question",
+        "selected": false,
+        "childNodes": [
+          {
+            "title": "20 - 30",
+            "name": "age",
+            "description": null,
+            "selected": false,
+            "childNodes": [],
+            "type": "Checkbox"
+          },
+          {
+            "title": "31 - 40",
+            "name": "age",
+            "description": null,
+            "selected": false,
+            "childNodes": [],
+            "type": "Checkbox"
+          },
+          {
+            "title": "41 - 80",
+            "name": "age",
+            "description": null,
+            "selected": false,
+            "childNodes": [],
+            "type": "Checkbox"
+          }
+        ]
+      }
+    ]
   }
 ]
