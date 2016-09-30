@@ -95,7 +95,7 @@
           },
           {
             "title": "Other",
-            "description": null,
+            "description": "Please describe",
             "childNodes": [],
             "selected": false,
             "type": "TextArea",
@@ -153,7 +153,7 @@
           },
           {
             "title": "Other",
-            "description": null,
+            "description": "Please describe",
             "type": "TextArea",
             "selected": false,
             "childNodes": []
@@ -196,7 +196,7 @@
           },
           {
             "title": "Other",
-            "description": null,
+            "description": "Please describe",
             "childNodes": [],
             "selected": false,
             "type": "TextArea"
