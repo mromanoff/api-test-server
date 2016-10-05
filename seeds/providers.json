@@ -1,5 +1,85 @@
 [
   {
+    "age": "35",
+    "gender": "female",
+    "highlights": [
+      {
+        "metadata": {
+          "issues": [
+            "Psychosis",
+            "Depression",
+            "Test",
+            "test 123"
+          ],
+          "styles": [
+            "clinical"
+          ]
+        },
+        "sentence": "I also do research in psychosis at Columbia University Medical Center."
+      },
+      {
+        "metadata": {
+          "issues": [
+            "family"
+          ],
+          "styles": []
+        },
+        "sentence": "I treat children, adolescents, and adults and enjoy working with families."
+      },
+      {
+        "metadata": {
+          "issues": [],
+          "styles": [
+            "Test",
+            "test 123"
+          ]
+        },
+        "sentence": "I treat children, adolescents, and adults and enjoy working with families."
+      }
+    ],
+    "id": "200",
+    "name": "Shannon Delaney",
+    "photoUrl": "https://cdn5.sussexdirectories.com/rms/rms_photos/sized/09/08/180809-413709-3_320x400.jpg?pu=1437754868",
+    "statementSentences": [
+      {
+        "highlighted": false,
+        "sentence": "Hello, I look forward to meeting and helping you."
+      },
+      {
+        "highlighted": false,
+        "sentence": "I have an interest in wellness and approaching patients holistically, and will spend time trying to identify and treat any underlying biological and psychological factors that may be contributing to your current problems."
+      },
+      {
+        "highlighted": false,
+        "sentence": "http://www."
+      },
+      {
+        "highlighted": false,
+        "sentence": "shannondelaneymd.com/about-us/ I graduated from the Medical College of Wisconsin, and completed my adult psychiatry residency at the Harvard Longwood Program."
+      },
+      {
+        "highlighted": false,
+        "sentence": "I completed my child and adolescent psychiatry fellowship at Columbia/Cornell hospitals."
+      },
+      {
+        "highlighted": true,
+        "sentence": "I also do research in psychosis at Columbia University Medical Center."
+      },
+      {
+        "highlighted": true,
+        "sentence": "I treat children, adolescents, and adults and enjoy working with families."
+      },
+      {
+        "highlighted": false,
+        "sentence": "My clinical interest is in treating all psychiatric conditions, including complicated diagnostic cases."
+      },
+      {
+        "highlighted": false,
+        "sentence": "My treatment philosophy is an integrated approach which may include psychotherapy, medication, and/or complementary medicine approaches that have been proven safe and effective."
+      }
+    ]
+  },
+  {
     "id": "362",
     "age": 36,
     "gender": "male",
@@ -7,12 +87,37 @@
     "photoUrl": "https://cdn5.sussexdirectories.com/rms/rms_photos/original/04/46/114604_3.jpg?pu=0",
     "highlights": [
       {
-        "sentence": "I tell it how it is, and I'm really nice.",
-        "descriptors": [
-          "clinical",
-          "nurturing",
-          "direct"
-        ]
+        "metadata": {
+          "issues": [
+            "Psychosis",
+            "Depression",
+            "Test",
+            "test 123"
+          ],
+          "styles": [
+            "clinical"
+          ]
+        },
+        "sentence": "I also do research in psychosis at Columbia University Medical Center."
+      },
+      {
+        "metadata": {
+          "issues": [
+            "family"
+          ],
+          "styles": []
+        },
+        "sentence": "I treat children, adolescents, and adults and enjoy working with families."
+      },
+      {
+        "metadata": {
+          "issues": [],
+          "styles": [
+            "Test",
+            "test 123"
+          ]
+        },
+        "sentence": "I treat children, adolescents, and adults and enjoy working with families."
       }
     ],
     "statementSentences": [
@@ -20,32 +125,26 @@
         "highlighted": true,
         "sentence": "I tell it how it is, and I'm really nice."
       },
-
       {
         "highlighted": false,
         "sentence": "Bacon ipsum dolor amet prosciutto salami corned beef kevin, tail pig andouille picanha cupim."
       },
-
       {
         "highlighted": true,
         "sentence": "Pig filet mignon flank porchetta ham cow pork loin."
       },
-
       {
         "highlighted": false,
         "sentence": "Meatloaf picanha bresaola prosciutto ground round, shank pork cow brisket."
       },
-
       {
         "highlighted": false,
         "sentence": "Cupim ham landjaeger shankle filet mignon."
       },
-
       {
         "highlighted": false,
         "sentence": "Short loin bacon spare ribs beef ribs pork loin, chuck pork chop tail pork belly."
       },
-
       {
         "highlighted": true,
         "sentence": "I'll give you lots of pills, patient."
@@ -60,17 +159,37 @@
     "photoUrl": "https://cdn1.sussexdirectories.com/rms/rms_photos/sized/42/54/35442-296030-2_320x400.jpg?pu=1404432841",
     "highlights": [
       {
-        "sentence": "I tell it how it is, and I'm really nice.",
-        "descriptors": [
-          "nurturing",
-          "direct"
-        ]
+        "metadata": {
+          "issues": [
+            "Psychosis",
+            "Depression",
+            "Test",
+            "test 123"
+          ],
+          "styles": [
+            "clinical"
+          ]
+        },
+        "sentence": "I also do research in psychosis at Columbia University Medical Center."
       },
       {
-        "sentence": "I'll give you lots of pills, patient.",
-        "descriptors": [
-          "clinical"
-        ]
+        "metadata": {
+          "issues": [
+            "family"
+          ],
+          "styles": []
+        },
+        "sentence": "I treat children, adolescents, and adults and enjoy working with families."
+      },
+      {
+        "metadata": {
+          "issues": [],
+          "styles": [
+            "Test",
+            "test 123"
+          ]
+        },
+        "sentence": "I treat children, adolescents, and adults and enjoy working with families."
       }
     ],
     "statementSentences": [
@@ -78,7 +197,6 @@
         "highlighted": true,
         "sentence": "I tell it how it is, and I'm really nice."
       },
-
       {
         "highlighted": true,
         "sentence": "I'll give you lots of pills, patient."
@@ -93,17 +211,37 @@
     "photoUrl": "https://cdn1.sussexdirectories.com/rms/rms_photos/original/64/11/101164_5.jpg?pu=0",
     "highlights": [
       {
-        "sentence": "I tell it how it is, and I'm really nice.",
-        "descriptors": [
-          "nurturing",
-          "direct"
-        ]
+        "metadata": {
+          "issues": [
+            "Psychosis",
+            "Depression",
+            "Test",
+            "test 123"
+          ],
+          "styles": [
+            "clinical"
+          ]
+        },
+        "sentence": "I also do research in psychosis at Columbia University Medical Center."
       },
       {
-        "sentence": "I'll give you lots of pills, patient.",
-        "descriptors": [
-          "clinical"
-        ]
+        "metadata": {
+          "issues": [
+            "family"
+          ],
+          "styles": []
+        },
+        "sentence": "I treat children, adolescents, and adults and enjoy working with families."
+      },
+      {
+        "metadata": {
+          "issues": [],
+          "styles": [
+            "Test",
+            "test 123"
+          ]
+        },
+        "sentence": "I treat children, adolescents, and adults and enjoy working with families."
       }
     ],
     "statementSentences": [
@@ -111,7 +249,6 @@
         "highlighted": true,
         "sentence": "I tell it how it is, and I'm really nice."
       },
-
       {
         "highlighted": true,
         "sentence": "I'll give you lots of pills, patient."
@@ -126,17 +263,37 @@
     "photoUrl": "https://cdn1.sussexdirectories.com/rms/rms_photos/original/53/81/118153_2.jpg?pu=0",
     "highlights": [
       {
-        "sentence": "I tell it how it is, and I'm really nice.",
-        "descriptors": [
-          "nurturing",
-          "direct"
-        ]
+        "metadata": {
+          "issues": [
+            "Psychosis",
+            "Depression",
+            "Test",
+            "test 123"
+          ],
+          "styles": [
+            "clinical"
+          ]
+        },
+        "sentence": "I also do research in psychosis at Columbia University Medical Center."
       },
       {
-        "sentence": "I'll give you lots of pills, patient.",
-        "descriptors": [
-          "clinical"
-        ]
+        "metadata": {
+          "issues": [
+            "family"
+          ],
+          "styles": []
+        },
+        "sentence": "I treat children, adolescents, and adults and enjoy working with families."
+      },
+      {
+        "metadata": {
+          "issues": [],
+          "styles": [
+            "Test",
+            "test 123"
+          ]
+        },
+        "sentence": "I treat children, adolescents, and adults and enjoy working with families."
       }
     ],
     "statementSentences": [
@@ -144,7 +301,6 @@
         "highlighted": true,
         "sentence": "I tell it how it is, and I'm really nice."
       },
-
       {
         "highlighted": true,
         "sentence": "I'll give you lots of pills, patient."
@@ -159,17 +315,37 @@
     "photoUrl": "https://cdn5.sussexdirectories.com/rms/rms_photos/sized/91/71/37191-357014-2_320x400.jpg?pu=1423025419",
     "highlights": [
       {
-        "sentence": "I tell it how it is, and I'm really nice.",
-        "descriptors": [
-          "nurturing",
-          "direct"
-        ]
+        "metadata": {
+          "issues": [
+            "Psychosis",
+            "Depression",
+            "Test",
+            "test 123"
+          ],
+          "styles": [
+            "clinical"
+          ]
+        },
+        "sentence": "I also do research in psychosis at Columbia University Medical Center."
       },
       {
-        "sentence": "I'll give you lots of pills, patient.",
-        "descriptors": [
-          "clinical"
-        ]
+        "metadata": {
+          "issues": [
+            "family"
+          ],
+          "styles": []
+        },
+        "sentence": "I treat children, adolescents, and adults and enjoy working with families."
+      },
+      {
+        "metadata": {
+          "issues": [],
+          "styles": [
+            "Test",
+            "test 123"
+          ]
+        },
+        "sentence": "I treat children, adolescents, and adults and enjoy working with families."
       }
     ],
     "statementSentences": [
@@ -177,7 +353,6 @@
         "highlighted": true,
         "sentence": "I tell it how it is, and I'm really nice."
       },
-
       {
         "highlighted": true,
         "sentence": "I'll give you lots of pills, patient."
