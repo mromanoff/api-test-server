@@ -1,14 +1,11 @@
 var express = require('express');
 var router = express.Router();
 
-var Insurance = require('../models/insurance.js');
+var insuranceCarriers = require('../models/insurance-carriers.js');
 
 /* GET /api/insurance listing. */
 router.get('/', function (req, res, next) {
-  Insurance.find(function (err, data) {
-
-    console.log('data', data);
-
+  insuranceCarriers.find(function (err, data) {
     if (err) return next(err);
     res.json(data);
   });
@@ -17,7 +14,7 @@ router.get('/', function (req, res, next) {
 
 /* POST /api/insurance */
 router.post('/', function (req, res, next) {
-  Insurance.create(req.body, function (err, post) {
+  insuranceCarriers.create(req.body, function (err, post) {
     if (err) return next(err);
     res.json(post);
   });
