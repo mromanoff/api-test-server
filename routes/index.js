@@ -7,7 +7,8 @@ var contactsRoutes = require('./contact');
 var stylesRoutes = require('./styles');
 var providersRoutes = require('./providers');
 var questionnaireRoutes = require('./questionnaire');
-var location = require('./location');
+var locationRoutes = require('./location');
+var insuranceRoutes = require('./insurance');
 
 /** GET /health-check - Check service health */
 router.get('/health-check', function(req, res) {
@@ -21,6 +22,7 @@ router.use('/styles/descriptors', stylesRoutes);
 router.use('/styles/providers', providersRoutes);
 router.use('/providers', providersRoutes);
 router.use('/issues/questionnaire', questionnaireRoutes);
-router.use('/location', location);
+router.use('/location', locationRoutes);
+router.use('/insurance', insuranceRoutes);
 
 module.exports = router;
