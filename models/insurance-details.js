@@ -4,6 +4,9 @@ var InsuranceDetailsSchema = new mongoose.Schema({
     insuranceCarrier: {
       type: String
     },
+    memberId: {
+      type: String
+    },
     firstName: {
       type: String
     },
