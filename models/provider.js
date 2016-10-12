@@ -16,6 +16,12 @@ var ProviderSchema = new mongoose.Schema({
   photoUrl: {
     type: String
   },
+  isFavorite: {
+    type: Boolean
+  },
+  contact: {
+    type: Object
+  },
   highlights: {
     type: Array
   },
