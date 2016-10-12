@@ -9,6 +9,7 @@ var questionnaireRoutes = require('./questionnaire');
 var locationRoutes = require('./location');
 var insuranceCarriersRoutes = require('./insurance-carriers');
 var insuranceDetailsRoutes = require('./insurance-details');
+var favoritesRoutes = require('./favorites');
 
 /** GET /health-check - Check service health */
 router.get('/health-check', function(req, res) {
@@ -23,6 +24,7 @@ router.use('/providers', providersRoutes);
 router.use('/issues/questionnaire', questionnaireRoutes);
 router.use('/location', locationRoutes);
 router.use('/insurance/carriers', insuranceCarriersRoutes);
+router.use('/user/favorites', favoritesRoutes);
 router.use('/users/insurance-details', insuranceDetailsRoutes);
 
 module.exports = router;
