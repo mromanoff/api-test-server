@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 
-var mongoose = require('mongoose');
 var insuranceDetails = require('../models/insurance-details.js');
 
 /* POST /api/insuranceDetails */
