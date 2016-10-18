@@ -6,10 +6,7 @@
     "gender": "female",
     "isFavorite": true,
     "photoUrl": "https://cdn5.sussexdirectories.com/rms/rms_photos/sized/09/08/180809-413709-3_320x400.jpg?pu=1437754868",
-    "contact": {
-      "phone": "555-555-5555",
-      "email": "example@example.com"
-    },
+    "phone": "555-555-5555",
     "highlights": [
       {
         "metadata": {
@@ -90,10 +87,7 @@
     "gender": "male",
     "name": "Andrea Iatrou",
     "isFavorite": false,
-    "contact": {
-      "phone": "555-555-5555",
-      "email": "example@example.com"
-    },
+    "phone": "555-555-5555",
     "photoUrl": "https://cdn5.sussexdirectories.com/rms/rms_photos/original/04/46/114604_3.jpg?pu=0",
     "highlights": [
       {
@@ -167,10 +161,7 @@
     "gender": "female",
     "name": "Laurie Greenberg",
     "isFavorite": false,
-    "contact": {
-      "phone": "555-555-5555",
-      "email": "example@example.com"
-    },
+    "phone": "555-555-5555",
     "photoUrl": "https://cdn1.sussexdirectories.com/rms/rms_photos/sized/42/54/35442-296030-2_320x400.jpg?pu=1404432841",
     "highlights": [
       {
@@ -224,10 +215,7 @@
     "gender": "female",
     "name": "Renee Saw",
     "isFavorite": false,
-    "contact": {
-      "phone": "555-555-5555",
-      "email": "example@example.com"
-    },
+    "phone": "555-555-5555",
     "photoUrl": "https://cdn1.sussexdirectories.com/rms/rms_photos/original/64/11/101164_5.jpg?pu=0",
     "highlights": [
       {
@@ -281,10 +269,7 @@
     "gender": "male",
     "name": "Volker Schuetz",
     "isFavorite": false,
-    "contact": {
-      "phone": "555-555-5555",
-      "email": "example@example.com"
-    },
+    "phone": "555-555-5555",
     "photoUrl": "https://cdn1.sussexdirectories.com/rms/rms_photos/original/53/81/118153_2.jpg?pu=0",
     "highlights": [
       {
@@ -338,10 +323,7 @@
     "gender": null,
     "name": "Ally Neuman",
     "isFavorite": false,
-    "contact": {
-      "phone": "555-555-5555",
-      "email": "example@example.com"
-    },
+    "phone": "555-555-5555",
     "photoUrl": "https://cdn5.sussexdirectories.com/rms/rms_photos/sized/91/71/37191-357014-2_320x400.jpg?pu=1423025419",
     "highlights": [
       {

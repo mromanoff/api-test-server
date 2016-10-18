@@ -1,41 +1,16 @@
 var express = require('express');
 var router = express.Router();
 
-var Favorites = require('../models/favorites.js');
+//var Favorites = require('../models/favorites.js');
+var Providers = require('../models/provider.js');
+
 
 /* GET /api/user/favorites */
 router.get('/', function (req, res, next) {
-  Favorites.find(function (err, data) {
-    if (err) return next(err);
-    res.json(data);
-  });
-});
-
-/* GET /api/user/favorites/id */
-// we use findOne instead of findById due id is not mongo _id
-router.get('/:id', function (req, res, next) {
-  Favorites.findOne({id: req.params.id}, function (err, post) {
+  Providers.find({isFavorite: true}, function (err, post) {
     if (err) return next(err);
     res.json(post);
   });
 });
-
-/* PUT  /api/user/favorites/id */
-// we use findOneAndUpdate instead of findByIdAndUpdate due id is not mongo _id
-router.put('/:id', function (req, res, next) {
-  Favorites.findOneAndUpdate({id: req.params.id}, req.body, function (err, item) {
-    if (err) return next(err);
-
-    if(item) {
-      res.json(item);
-    } else {
-      Favorites.create(req.body, function (err, item) {
-        if (err) return next(err);
-        res.json(item);
-      });
-    }
-  });
-});
-
 
 module.exports = router;

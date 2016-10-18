@@ -12,6 +12,15 @@ router.get('/', function (req, res, next) {
   });
 });
 
+// /* GET /api/provider/favorite */
+// router.get('/favorite', function (req, res, next) {
+//   Providers.find({isFavorite: true}, function (err, post) {
+//     if (err) return next(err);
+//     res.json(post);
+//   });
+// });
+
+
 /* GET /api/provider/id */
 // we use findOne instead of findById due id is not mongo _id
 router.get('/:id', function (req, res, next) {

@@ -5,7 +5,14 @@ var FavoriteSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  favorite: {
+  name: {
+    type: String,
+    required: true
+  },
+  photoUrl: {
+    type: String
+  },
+  isFavorite: {
     type: Boolean,
     required: true,
     default: false
