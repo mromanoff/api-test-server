@@ -19,7 +19,7 @@ var QuestionnaireSchema = new mongoose.Schema({
     name: {
       type: String
     },
-    selected: {
+    isSelected: {
       type: Boolean
     }
   },

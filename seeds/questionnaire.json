@@ -302,13 +302,15 @@
         "title": "My culture",
         "description": "How do you culturally identify?",
         "type": "TextArea",
-        "isSelected": false
+        "isSelected": false,
+        "childNodes": []
       },
       {
         "title": "My spirituality",
         "description": "Could you elaborate on your spirituality?",
         "type": "TextArea",
-        "isSelected": false
+        "isSelected": false,
+        "childNodes": []
       }
     ]
   },
