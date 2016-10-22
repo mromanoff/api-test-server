@@ -19,14 +19,17 @@ var ProviderSchema = new mongoose.Schema({
   isFavorite: {
     type: Boolean
   },
-  contact: {
-    type: Object
+  phone: {
+    type: String
   },
   highlights: {
     type: Array
   },
   statementSentences: {
     type: Array
+  },
+  priceInformation: {
+    type: Object
   }
 });
 

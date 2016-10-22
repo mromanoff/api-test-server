@@ -25,6 +25,6 @@ router.use('/issues/questionnaire', questionnaireRoutes);
 router.use('/location', locationRoutes);
 router.use('/insurance/carriers', insuranceCarriersRoutes);
 router.use('/user/favorites', favoritesRoutes);
-router.use('/users/insurance-details', insuranceDetailsRoutes);
+router.use('/user/insurance-details', insuranceDetailsRoutes);
 
 module.exports = router;

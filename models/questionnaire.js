@@ -5,22 +5,27 @@ var QuestionnaireSchema = new mongoose.Schema({
       type: String
     },
     title: {
-      type: String
+      type: String,
+      required: true
     },
     description: {
-      type: String
+      type: String,
+      required: true
     },
     childNodes: {
-      type: Array
+      type: Array,
+      required: true
     },
     type: {
-      type: String
+      type: String,
+      required: true
     },
     name: {
       type: String
     },
     isSelected: {
-      type: Boolean
+      type: Boolean,
+      required: true
     }
   },
   {collection: 'questionnaire'}

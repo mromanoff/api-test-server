@@ -4,7 +4,7 @@ var router = express.Router();
 var Providers = require('../models/provider.js');
 var Contact = require('../models/contact-provider.js');
 
-/* GET /api/provider listing. */
+/* GET /api/providers listing. */
 router.get('/', function (req, res, next) {
   Providers.find(function (err, data) {
     if (err) return next(err);
@@ -12,7 +12,7 @@ router.get('/', function (req, res, next) {
   });
 });
 
-/* GET /api/provider/id */
+/* GET /api/providers/id */
 // we use findOne instead of findById due id is not mongo _id
 router.get('/:id', function (req, res, next) {
   Providers.findOne({id: req.params.id}, function (err, post) {
@@ -22,7 +22,7 @@ router.get('/:id', function (req, res, next) {
 });
 
 
-/* PUT  /api/provider/id */
+/* PUT  /api/providers/id */
 // we use findOneAndUpdate instead of findByIdAndUpdate due id is not mongo _id
 router.put('/:id', function (req, res, next) {
   Providers.findOneAndUpdate({id: req.params.id}, req.body, function (err, item) {
@@ -32,7 +32,7 @@ router.put('/:id', function (req, res, next) {
 });
 
 
-/* POST  /api/provider/:id/contact?action=appointment|call */
+/* POST  /api/providers/:id/contact?action=appointment|call */
 router.post('/:id/contact', function (req, res, next) {
   console.log('params:', req.params);
   console.log('query:', req.query);
