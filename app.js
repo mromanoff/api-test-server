@@ -10,6 +10,9 @@ var routes = require('./routes/index');
 
 var app = express();
 
+// look at the issue: https://github.com/Automattic/mongoose/issues/4291
+mongoose.Promise = global.Promise;
+
 mongoose.connect('mongodb://localhost/romanoff-io', function (err) {
   if (err) {
     console.log('connection error', err);

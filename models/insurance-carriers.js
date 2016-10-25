@@ -1,11 +1,13 @@
 var mongoose = require('mongoose');
 
-var InsuranceCarriersSchema = new mongoose.Schema({
+var InsuranceCarriersSchema = mongoose.Schema({
     id: {
-      type: String
+      type: String,
+      required: true
     },
     name: {
-      type: String
+      type: String,
+      required: true
     }
   },
   {collection: 'insuranceCarriers'}

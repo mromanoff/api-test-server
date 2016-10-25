@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var ProviderSchema = new mongoose.Schema({
+var ProviderSchema = mongoose.Schema({
   id: {
     type: String
   },
@@ -17,7 +17,8 @@ var ProviderSchema = new mongoose.Schema({
     type: String
   },
   isFavorite: {
-    type: Boolean
+    type: Boolean,
+    default: false
   },
   phone: {
     type: String

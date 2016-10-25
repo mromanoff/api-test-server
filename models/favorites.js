@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var FavoriteSchema = new mongoose.Schema({
+var FavoriteSchema = mongoose.Schema({
   id: {
     type: String,
     required: true

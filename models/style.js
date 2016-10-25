@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var StyleSchema = new mongoose.Schema({
+var StyleSchema = mongoose.Schema({
   styleDescriptor: {
     type: String,
     required: true

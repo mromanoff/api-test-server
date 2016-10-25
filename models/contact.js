@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var ContactSchema = new mongoose.Schema({
+var ContactSchema = mongoose.Schema({
   firstName: {
     type: String,
     required: true

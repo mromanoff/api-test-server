@@ -868,7 +868,7 @@
     "isFavorite": false,
     "name": "Jane Genende",
     "phone": "9143578727",
-    "photoUrl": "None",
+    "photoUrl": null,
     "priceInformation": {
       "billedPrice": "$200",
       "postReimbursementPrice": "*After you've been to $1000/200 sessions, you are eligible to get around $160 back..."
@@ -1067,7 +1067,7 @@
     "isFavorite": false,
     "name": "Manuel Lopez-Leon",
     "phone": "6467590509",
-    "photoUrl": "None",
+    "photoUrl": null,
     "priceInformation": {
       "billedPrice": "$200",
       "postReimbursementPrice": "*After you've been to $1000/200 sessions, you are eligible to get around $160 back..."
@@ -1109,7 +1109,7 @@
   },
   {
     "age": "35",
-    "gender": "None",
+    "gender": null,
     "highlights": [
       {
         "metadata": {
@@ -1218,7 +1218,7 @@
     "isFavorite": false,
     "name": "Ofra Bloch",
     "phone": "6463511780",
-    "photoUrl": "None",
+    "photoUrl": null,
     "priceInformation": {
       "billedPrice": "$200",
       "postReimbursementPrice": "*After you've been to $1000/200 sessions, you are eligible to get around $160 back..."
@@ -1278,7 +1278,7 @@
     "isFavorite": false,
     "name": "Selin DeEskinazis",
     "phone": "3474746319",
-    "photoUrl": "None",
+    "photoUrl": null,
     "priceInformation": {
       "billedPrice": "$200",
       "postReimbursementPrice": "*After you've been to $1000/200 sessions, you are eligible to get around $160 back..."

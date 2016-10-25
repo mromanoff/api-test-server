@@ -1,13 +1,19 @@
 var express = require('express');
 var router = express.Router();
 
-var insuranceDetails = require('../models/insurance-details.js');
+var InsuranceDetails = require('../models/insurance-details.js');
 
 /* POST /api/user/insurance-details */
-router.post('/', function (req, res, next) {
-  insuranceDetails.create(req.body, function (err, post) {
-    if (err) return next(err);
-    res.json(post);
+router.post('/', function (req, res) {
+  var insuranceDetails = new InsuranceDetails(req.body);
+
+  insuranceDetails.save(function (err, data) {
+    if(err) {
+      res.status(500).send(err);
+    } else {
+      // 201 created
+      res.status(201).json(data);
+    }
   });
 });
 

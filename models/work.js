@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var WorkSchema = new mongoose.Schema({
+var WorkSchema = mongoose.Schema({
     name: String,
     visible: Boolean,
     category: String,

@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var QuestionnaireSchema = new mongoose.Schema({
+var QuestionnaireSchema = mongoose.Schema({
     id: {
       type: String
     },
